@@ -2,8 +2,8 @@
   "version": 1,
   "name": "Huntsville (HSV)",
   "id": "dd4c3720-e22d-4c66-a743-2d5e973cdd14",
-  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Huntsville%20(HSV).json",
-  "updateSerial": 2025011005,
+  "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Huntsville%20(HSV).json",
+  "updateSerial": 2025012300,
   "stations": [
     {
       "id": "a14872a0-e81a-4628-93bb-caf7e1e0355c",
