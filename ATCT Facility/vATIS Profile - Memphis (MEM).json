@@ -1,0 +1,600 @@
+{
+  "version": 1,
+  "name": "Memphis (MEM)",
+  "id": "264249d2-0439-4973-93e6-65e683f8c427",
+  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Memphis%20(MEM).json",
+  "updateSerial": 2025011012,
+  "stations": [
+    {
+      "id": "271850be-3f44-436b-b2f8-c5b66e5654fa",
+      "identifier": "KMEM",
+      "name": "Memphis",
+      "atisType": "Combined",
+      "codeRange": {
+        "low": "A",
+        "high": "Z"
+      },
+      "atisFormat": {
+        "observationTime": {
+          "template": {
+            "text": "{time}Z",
+            "voice": "{time} ZULU {special}"
+          }
+        },
+        "surfaceWind": {
+          "speakLeadingZero": false,
+          "magneticVariation": {
+            "enabled": false,
+            "magneticDegrees": 0
+          },
+          "standard": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd}"
+            }
+          },
+          "standardGust": {
+            "template": {
+              "text": "{wind_dir}{wind_spd}G{wind_gust}KT",
+              "voice": "WIND {wind_dir} AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variable": {
+            "template": {
+              "text": "VRB{wind_spd}KT",
+              "voice": "WIND VARIABLE AT {wind_spd}"
+            }
+          },
+          "variableGust": {
+            "template": {
+              "text": "VRB{wind_spd}G{wind_gust}KT",
+              "voice": "WIND VARIABLE AT {wind_spd} GUSTS {wind_gust}"
+            }
+          },
+          "variableDirection": {
+            "template": {
+              "text": "{wind_vmin}V{wind_vmax}",
+              "voice": "WIND VARIABLE BETWEEN {wind_vmin} AND {wind_vmax}"
+            }
+          },
+          "calm": {
+            "calmWindSpeed": 2,
+            "template": {
+              "text": "{wind}",
+              "voice": "WIND CALM"
+            }
+          }
+        },
+        "visibility": {
+          "north": "to the north",
+          "northEast": "to the north-east",
+          "east": "to the east",
+          "southEast": "to the south-east",
+          "south": "to the south",
+          "southWest": "to the south-west",
+          "west": "to the west",
+          "northWest": "to the north-west",
+          "unlimitedVisibilityVoice": "visibility 10 kilometers or more",
+          "unlimitedVisibilityText": "VIS 10KM",
+          "includeVisibilitySuffix": true,
+          "metersCutoff": 5000,
+          "template": {
+            "text": "{visibility}",
+            "voice": "VISIBILITY {visibility}"
+          }
+        },
+        "presentWeather": {
+          "lightIntensity": "light",
+          "moderateIntensity": "",
+          "heavyIntensity": "heavy",
+          "vicinity": "in vicinity",
+          "presentWeatherTypes": {
+            "DZ": {
+              "text": "DZ",
+              "spoken": "drizzle"
+            },
+            "RA": {
+              "text": "RA",
+              "spoken": "rain"
+            },
+            "SN": {
+              "text": "SN",
+              "spoken": "snow"
+            },
+            "SG": {
+              "text": "SG",
+              "spoken": "snow grains"
+            },
+            "IC": {
+              "text": "IC",
+              "spoken": "ice crystals"
+            },
+            "PL": {
+              "text": "PL",
+              "spoken": "ice pellets"
+            },
+            "GR": {
+              "text": "GR",
+              "spoken": "hail"
+            },
+            "GS": {
+              "text": "GS",
+              "spoken": "small hail"
+            },
+            "UP": {
+              "text": "UP",
+              "spoken": "unknown precipitation"
+            },
+            "BR": {
+              "text": "BR",
+              "spoken": "mist"
+            },
+            "FG": {
+              "text": "FG",
+              "spoken": "fog"
+            },
+            "FU": {
+              "text": "FU",
+              "spoken": "smoke"
+            },
+            "VA": {
+              "text": "VA",
+              "spoken": "volcanic ash"
+            },
+            "DU": {
+              "text": "DU",
+              "spoken": "widespread dust"
+            },
+            "SA": {
+              "text": "SA",
+              "spoken": "sand"
+            },
+            "HZ": {
+              "text": "HZ",
+              "spoken": "haze"
+            },
+            "PY": {
+              "text": "PY",
+              "spoken": "spray"
+            },
+            "PO": {
+              "text": "PO",
+              "spoken": "well developed dust, sand whirls"
+            },
+            "SQ": {
+              "text": "SQ",
+              "spoken": "squalls"
+            },
+            "FC": {
+              "text": "FC",
+              "spoken": "funnel cloud tornado waterspout"
+            },
+            "SS": {
+              "text": "SS",
+              "spoken": "sandstorm"
+            },
+            "DS": {
+              "text": "DS",
+              "spoken": "dust storm"
+            },
+            "PR": {
+              "text": "PR",
+              "spoken": "partial"
+            },
+            "BC": {
+              "text": "BC",
+              "spoken": "patches"
+            },
+            "MI": {
+              "text": "MI",
+              "spoken": "shallow"
+            },
+            "DR": {
+              "text": "DR",
+              "spoken": "low drifting"
+            },
+            "BL": {
+              "text": "BL",
+              "spoken": "blowing"
+            },
+            "SH": {
+              "text": "SH",
+              "spoken": "showers"
+            },
+            "TS": {
+              "text": "TS",
+              "spoken": "thunderstorm"
+            },
+            "FZ": {
+              "text": "FZ",
+              "spoken": "freezing"
+            }
+          },
+          "template": {
+            "text": "{weather}",
+            "voice": "{weather}"
+          }
+        },
+        "recentWeather": {
+          "template": {
+            "text": "RECENT WEATHER {weather}",
+            "voice": "RECENT WEATHER {weather}"
+          }
+        },
+        "clouds": {
+          "identifyCeilingLayer": true,
+          "convertToMetric": false,
+          "isAltitudeInHundreds": false,
+          "undeterminedLayerAltitude": {
+            "text": "undetermined",
+            "voice": "undetermined"
+          },
+          "types": {
+            "FEW": {
+              "text": "FEW{altitude}",
+              "voice": "few clouds at {altitude}"
+            },
+            "SCT": {
+              "text": "SCT{altitude}{convective}",
+              "voice": "{altitude} scattered {convective}"
+            },
+            "BKN": {
+              "text": "BKN{altitude}{convective}",
+              "voice": "{altitude} broken {convective}"
+            },
+            "OVC": {
+              "text": "OVC{altitude}{convective}",
+              "voice": "{altitude} overcast {convective}"
+            },
+            "VV": {
+              "text": "VV{altitude}",
+              "voice": "indefinite ceiling {altitude}"
+            },
+            "NSC": {
+              "text": "NSC",
+              "voice": "no significant clouds"
+            },
+            "NCD": {
+              "text": "NCD",
+              "voice": "no clouds detected"
+            },
+            "CLR": {
+              "text": "CLR",
+              "voice": "sky clear below one-two thousand"
+            },
+            "SKC": {
+              "text": "SKC",
+              "voice": "sky clear"
+            }
+          },
+          "convectiveTypes": {
+            "CB": "cumulonimbus",
+            "TCU": "towering cumulus"
+          },
+          "template": {
+            "text": "{clouds}",
+            "voice": "{clouds}"
+          }
+        },
+        "temperature": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{temp}",
+            "voice": "TEMPERATURE {temp}"
+          }
+        },
+        "dewpoint": {
+          "usePlusPrefix": false,
+          "speakLeadingZero": false,
+          "template": {
+            "text": "{dewpoint}",
+            "voice": "DEWPOINT {dewpoint}"
+          }
+        },
+        "altimeter": {
+          "pronounceDecimal": false,
+          "template": {
+            "text": "A{altimeter} ({altimeter|text})",
+            "voice": "ALTIMETER {altimeter}"
+          }
+        },
+        "transitionLevel": {
+          "values": [],
+          "template": {
+            "text": "TRANSITION LEVEL {trl}",
+            "voice": "TRANSITION LEVEL {trl}"
+          }
+        },
+        "notams": {
+          "template": {
+            "text": "NOTAMS... {notams}",
+            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+          }
+        },
+        "closingStatement": {
+          "autoIncludeClosingStatement": true,
+          "template": {
+            "text": "...ADVS YOU HAVE INFO {letter}",
+            "voice": "ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+          }
+        }
+      },
+      "notamsBeforeFreeText": false,
+      "airportConditionsBeforeFreeText": false,
+      "frequency": 127750000,
+      "idsEndpoint": "",
+      "useDecimalTerminology": false,
+      "atisVoice": {
+        "useTextToSpeech": true,
+        "voice": "Default"
+      },
+      "presets": [
+        {
+          "id": "0976d9c2-9fd3-4398-96cb-76859e56189d",
+          "name": "NORTH | ILS | DEP 36L/C",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 36L, RWY 36R. SIMUL DEPS IN USE RWY 36L, RWY 36C.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "96224c8c-160b-4112-a3d1-91127965dd95",
+          "name": "NORTH | ILS | DEP 36L/C/R",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 36L RWY 36R. SIMUL DEPS IN USE RWY 36L, RWY 36C, RWY 36R.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "d5c9144e-6eb8-4c2c-8ff8-c3f2d78f7719",
+          "name": "NORTH | VIS | DEP 36L/C",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 36L, RWY 36R. SIMUL DEPS IN USE RWY 36L, RWY 36C.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "321a7a3f-2005-4d2e-9709-09a69df477a6",
+          "name": "NORTH | VIS | DEP 36L/C/R",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 36L, RWY 36R. SIMUL DEPS IN USE RWY 36L, RWY 36C, RWY 36R.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "6700611b-d5bf-40a5-b247-26dc0e0ed6c0",
+          "name": "SOUTH | ILS | DEP 18R/C",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 18R, RWY 18L. SIMUL DEPS IN USE RWY 18R, RWY 18C.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "d0994433-341f-4acd-8581-228b0ba96b62",
+          "name": "SOUTH | ILS | DEP 18R/C/L",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 18R, RWY 18L. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 18L.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "658f457a-250c-425e-b1ca-8c26bba73fd2",
+          "name": "SOUTH | VIS | DEP 18R/C",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 18R, RWY 18L. SIMUL DEPS IN USE RWY 18R, RWY 18C.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND][NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "36419696-a464-49e0-b4c0-cc59f7c241cb",
+          "name": "SOUTH | VIS | DEP 18R/C/L",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 18R, RWY 18L. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 18L.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "5479bbf3-179b-41de-87fc-9c415d511373",
+          "name": "NORTH | VIS | DEP 27",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 36L, RWY 36R. SIMUL DEPS IN USE RWY 36L, RWY 36C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "6f4b42af-cb24-4b7d-8c97-6c98e5a632d8",
+          "name": "NORTH | VIS | LAND 27",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 36L, RWY 36R, RWY 27. SIMUL DEPS IN USE RWY 36L, RWY36R.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "07b72d55-3b85-4f97-bc44-00ba2200b300",
+          "name": "NORTH | VIS | LAND AND DEP 27",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 36L, RWY 36R, RWY 27. SIMUL DEPS IN USE RWY 36L, RWY36C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "40966f09-848e-4b8a-9432-a02db35a1659",
+          "name": "NORTH | ILS | DEP 27",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 36L, RWY 36R. SIMUL DEPS IN USE RWY 36L, RWY 36C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "a46f12e5-e200-4743-bd97-0357b431d8fa",
+          "name": "NORTH | ILS | LAND 27",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 36L, RWY 36R, RWY 27. SIMUL DEPS IN USE RWY 36L, RWY 36R",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "2c74c975-9eb0-49c4-8d1c-9623079ff16e",
+          "name": "NORTH | ILS | LAND AND DEP 27",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 36L, RWY 36R, RWY 27. SIMUL DEPS IN USE RWY 36L, RWY36C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "cde38624-380d-43d7-aeb7-0998bb76a3e9",
+          "name": "SOUTH | VIS | DEP 27",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 18L, RWY 18R. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "27e2a462-9e2a-4a58-a4b6-b7228d853935",
+          "name": "SOUTH | VIS | LAND 27",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 18L, RWY 18R, RWY 27. SIMUL DEPS IN USE RWY 18RM RWY 18C.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "9208433c-f28b-4d18-a086-8761da7807bf",
+          "name": "SOUTH | VIS | LAND AND DEP 27",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 18L, RWY 18R, RWY 27. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "d803eee7-d745-46fe-bc64-9bd50333efde",
+          "name": "SOUTH | ILS | DEP 27",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 18L, RWY 18R. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "8aea9a04-da6d-4b96-a922-2cf5ac63523d",
+          "name": "SOUTH | ILS | LAND 27",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 18L, RWY 18R, RWY 27. SIMUL DEPS IN USE RWY 18R, RWY 18C.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "0526ab1b-5346-4749-9544-165f31be1ec7",
+          "name": "SOUTH | ILS | LAND AND DEP 27",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 18L, RWY 18R, RWY 27. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 27.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "9c9472ae-ee91-46d7-a678-ad9fb257a5c0",
+          "name": "NORTH | ILS | 9",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 36L, RWY 36R, RWY 9. SIMUL DEPS IN USE RWY 36L, RWY36C, RWY 9.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "5ce5b46e-3bc8-4b1f-b769-b242ad6cfa6c",
+          "name": "NORTH | VIS | 9",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 36L, RWY 36R, RWY 9. SIMUL DEPS IN USE RWY 36L, RWY 36C, RWY 9.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "b6708eb4-638f-46ba-97cc-7fbbba147790",
+          "name": "SOUTH | ILS | 9",
+          "airportConditions": "SIMUL ILS APCHS IN USE RWY 18L, RWY 18R, RWY 9. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 9.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        },
+        {
+          "id": "2b1a2524-357f-441d-b482-f000d6ded457",
+          "name": "SOUTH | VIS | 9",
+          "airportConditions": "SIMUL VIS APCHS IN USE RWY 18L, RWY 18R, RWY 9. SIMUL DEPS IN USE RWY 18R, RWY 18C, RWY 9.",
+          "notams": "BIRD ACTIVITY RPTD INVOF ARPT. READBACK ALL RWY HOLD SHORT INSTRUCTIONS. CONSOLIDATED WAKE TURBULENCE SEPARATION STANDARDS IN EFFECT. ALL ACFT CTC GC FOR PUSHBACK ONTO TWY N OR TWY J.",
+          "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND]  [NOTAMS].",
+          "externalGenerator": {
+            "enabled": false
+          }
+        }
+      ],
+      "contractions": [
+        {
+          "variableName": "RY",
+          "text": "RY",
+          "voice": "RUNWAY"
+        },
+        {
+          "variableName": "GC",
+          "text": "GC",
+          "voice": "GROUND CONTROL"
+        },
+        {
+          "variableName": "FM",
+          "text": "FM",
+          "voice": "FROM"
+        },
+        {
+          "variableName": "MEM",
+          "text": "MEM",
+          "voice": "MEMPHIS"
+        }
+      ],
+      "airportConditionDefinitions": [],
+      "notamDefinitions": []
+    }
+  ]
+}
