@@ -2,8 +2,8 @@
   "version": 1,
   "name": "Memphis Combined Center",
   "id": "add2f2ea-203b-4ff3-9236-41aff7e43fe4",
-  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Memphis%20Combined%20Center.json",
-  "updateSerial": 2025011013,
+  "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ARTCC%20Facility/vATIS%20Profile%20-%20Memphis%20Combined%20Center.json",
+  "updateSerial": 2025012300,
   "stations": [
     {
       "id": "4067e7f7-b07a-4247-9d2f-b1fd000f785e",
