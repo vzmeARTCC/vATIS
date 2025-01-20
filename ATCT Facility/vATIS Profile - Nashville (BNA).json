@@ -2,8 +2,8 @@
   "version": 1,
   "name": "Nashville (BNA)",
   "id": "2f5388be-5b4b-4e08-9c6e-9c12b1db2f3e",
-  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Nashville%20(BNA).json",
-  "updateSerial": 2025011016,
+  "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Nashville%20(BNA).json",
+  "updateSerial": 2025012300,
   "stations": [
     {
       "id": "f68a42c3-fb49-4237-b304-49561887c9cd",
