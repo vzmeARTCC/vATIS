@@ -2,8 +2,8 @@
   "version": 1,
   "name": "Campbell AAF (HOP)",
   "id": "52dad8dc-8866-4ffd-b940-f8972ffe9bc1",
-  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Campbell%20AAF%20(HOP).json",
-  "updateSerial": 2025011001,
+  "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Campbell%20AAF%20(HOP).json",
+  "updateSerial": 2025012300,
   "stations": [
     {
       "id": "6cb1dfa2-2823-42e6-8444-bbb6e9559002",
