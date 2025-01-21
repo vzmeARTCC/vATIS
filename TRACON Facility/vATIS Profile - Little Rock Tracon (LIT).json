@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Little Rock TRACON (LIT)",
-  "id": "12ee0266-d396-450e-a679-862dfeffb1f2",
+  "id": "2b0b3571-ba90-403a-aa74-2887408ca145",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/TRACON%20Facility/vATIS%20Profile%20-%20Little%20Rock%20Tracon%20(LIT).json",
   "updateSerial": 2025012300,
   "stations": [
@@ -381,9 +381,65 @@
           "variableName": "FSS",
           "text": "FSS",
           "voice": "FLIGHT SERVICE"
+        },
+        {
+          "variableName": "4L",
+          "text": "4L",
+          "voice": "FOUR LEFT"
+        },
+        {
+          "variableName": "4R",
+          "text": "4R",
+          "voice": "FOUR RIGHT"
+        },
+        {
+          "variableName": "22L",
+          "text": "22L",
+          "voice": "TWO TWO LEFT"
+        },
+        {
+          "variableName": "22R",
+          "text": "22R",
+          "voice": "TWO TWO RIGHT"
+        },
+        {
+          "variableName": "18",
+          "text": "18",
+          "voice": "ONE EIGHT"
+        },
+        {
+          "variableName": "36",
+          "text": "36",
+          "voice": "THREE SIX"
+        },
+        {
+          "variableName": "LIT",
+          "text": "LIT",
+          "voice": "LITTLE ROCK"
+        },
+        {
+          "variableName": "HAZ_WX_INFO",
+          "text": "HAZ WX INFO",
+          "voice": "HAZARDOUS WEATHER INFORMATION"
         }
       ],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "@HAZ_WX_INFO FOR @LIT AREA AVBL ON @FSS FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": true
+        },
+        {
+          "text": "LLWS ADVZYS IN EFCT.",
+          "ordinal": 2,
+          "enabled": true
+        },
+        {
+          "text": "BAA IN EFCT.",
+          "ordinal": 3,
+          "enabled": true
+        }
+      ],
       "notamDefinitions": []
     },
     {
