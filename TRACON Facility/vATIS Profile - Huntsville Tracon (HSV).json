@@ -2,8 +2,8 @@
   "version": 1,
   "name": "Huntsville TRACON (HSV)",
   "id": "a7a778e3-a63e-4cab-851e-3c7f209549f4",
-  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Huntsville%20TRACON%20(HSV).json",
-  "updateSerial": 2025011006,
+  "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/TRACON%20Facility/vATIS%20Profile%20-%20Huntsville%20Tracon%20(HSV).json",
+  "updateSerial": 2025012300,
   "stations": [
     {
       "id": "a14872a0-e81a-4628-93bb-caf7e1e0355c",
