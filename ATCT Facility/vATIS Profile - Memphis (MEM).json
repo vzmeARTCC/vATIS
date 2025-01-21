@@ -3,7 +3,7 @@
   "name": "Memphis (MEM)",
   "id": "acfd3b58-55a1-468c-99c2-b255ce5b879a",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Memphis%20(MEM).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025012301,
   "stations": [
     {
       "id": "271850be-3f44-436b-b2f8-c5b66e5654fa",
