@@ -2,8 +2,8 @@
   "version": 1,
   "name": "Little Rock TRACON (LIT)",
   "id": "12ee0266-d396-450e-a679-862dfeffb1f2",
-  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Little%20Rock%20TRACON%20(LIT).json",
-  "updateSerial": 2025011011,
+  "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/TRACON%20Facility/vATIS%20Profile%20-%20Little%20Rock%20Tracon%20(LIT).json",
+  "updateSerial": 2025012300,
   "stations": [
     {
       "id": "af624718-d6bd-4488-a103-6a0fc8931a88",
