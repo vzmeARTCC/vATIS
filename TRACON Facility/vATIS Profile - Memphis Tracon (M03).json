@@ -2,8 +2,8 @@
   "version": 1,
   "name": "Memphis TRACON (M03)",
   "id": "62395f4f-e69c-4165-9d70-a15f08983e11",
-  "updateUrl": "https://raw.githubusercontent.com/Scottfulky/vZME/refs/heads/main/vATIS%20Profile%20-%20Memphis%20TRACON%20(M03).json",
-  "updateSerial": 2025011014,
+  "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/TRACON%20Facility/vATIS%20Profile%20-%20Memphis%20Tracon%20(M03).json",
+  "updateSerial": 2025012300,
   "stations": [
     {
       "id": "271850be-3f44-436b-b2f8-c5b66e5654fa",
