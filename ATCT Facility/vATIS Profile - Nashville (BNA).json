@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Nashville (BNA)",
-  "id": "2f5388be-5b4b-4e08-9c6e-9c12b1db2f3e",
+  "id": "bb69193f-d7c4-4295-a3d5-fda4a3698c8d",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Nashville%20(BNA).json",
   "updateSerial": 2025012300,
   "stations": [
@@ -401,8 +401,80 @@
           }
         }
       ],
-      "contractions": [],
-      "airportConditionDefinitions": [],
+      "contractions": [
+        {
+          "variableName": "BNA",
+          "text": "BNA",
+          "voice": "NASHVILLE"
+        },
+        {
+          "variableName": "20L",
+          "text": "20L",
+          "voice": "TWO ZERO LEFT"
+        },
+        {
+          "variableName": "20R",
+          "text": "20R",
+          "voice": "TWO ZERO RIGHT"
+        },
+        {
+          "variableName": "20C",
+          "text": "20C",
+          "voice": "TWO ZERO CENTER"
+        },
+        {
+          "variableName": "2L",
+          "text": "2L",
+          "voice": "TWO LEFT"
+        },
+        {
+          "variableName": "2R",
+          "text": "2R",
+          "voice": "TWO RIGHT"
+        },
+        {
+          "variableName": "2C",
+          "text": "2C",
+          "voice": "TWO CENTER"
+        },
+        {
+          "variableName": "HAZ_WX_INFO",
+          "text": "HAZ WX INFO",
+          "voice": "HAZARDOUS WEATHER INFORMATION"
+        },
+        {
+          "variableName": "FSS",
+          "text": "FSS",
+          "voice": "FLIGHT SERVICE"
+        },
+        {
+          "variableName": "13",
+          "text": "13",
+          "voice": "ONE THREE"
+        },
+        {
+          "variableName": "31",
+          "text": "31",
+          "voice": "THREE ONE"
+        }
+      ],
+      "airportConditionDefinitions": [
+        {
+          "text": "@HAZ_WX_INFO FOR @BNA AREA AVBL ON @FSS FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "LLWS ADVZYS IN EFCT.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "BAA IN EFCT.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     }
   ]

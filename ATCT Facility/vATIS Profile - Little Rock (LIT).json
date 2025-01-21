@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Little Rock (LIT)",
-  "id": "82d3b77e-6a85-4446-8c51-686b930e5c9b",
+  "id": "0c8d6042-68b3-4f62-a8ac-3973b910043a",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Little%20Rock%20(LIT).json",
   "updateSerial": 2025012300,
   "stations": [
@@ -333,7 +333,7 @@
         {
           "id": "16f7f8c9-cea1-4451-9ab8-3bdee850906c",
           "name": "NORTH (VMC)",
-          "airportConditions": "SIMUL VIS APCH RWYS 4L, RWY 4R IN USE. SIMUL DEPS RWYS 4L, RWY 4R, RWY 36. ",
+          "airportConditions": "SIMUL VIS APCH RWYS 4L, @4R IN USE. SIMUL DEPS RWYS 4L, @4R, @36. ",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -343,7 +343,7 @@
         {
           "id": "02e0b5d3-ffde-47d7-a719-4ac0a54afcc0",
           "name": "NORTH (IMC)",
-          "airportConditions": "SIMUL ILS APCH RWYS 4L, RWY 4R IN USE. SIMUL DEPS RWY 4L, RWY 4R, RWY 36. ",
+          "airportConditions": "SIMUL ILS APCH RWYS 4L, @4R IN USE. SIMUL DEPS RWY 4L, @4R, @36. ",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -353,7 +353,7 @@
         {
           "id": "3ac49a5a-7428-4923-b346-b75efad17ac5",
           "name": "SOUTH (VMC)",
-          "airportConditions": "SIMUL VIS APCH RWY 22L, RWY 22R IN USE. SIMUL DEPS RWY 22L, RWY 22R, RWY 18. ",
+          "airportConditions": "SIMUL VIS APCH RWYS 22L, @22R IN USE. SIMUL DEPS RWYS 22L, @22R, @18. ",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -363,7 +363,7 @@
         {
           "id": "669fef7c-0382-4985-bfea-171b5c1b6d8d",
           "name": "SOUTH (IMC)",
-          "airportConditions": "SIMUL ILS APCH RWY 22L, RWY 22R IN USE. SIMUL DEPS RWY 22L, RWY 22R, RWY 18. ",
+          "airportConditions": "SIMUL ILS APCH RWYS 22L, @22R IN USE. SIMUL DEPS RWYS 22L, @22R, @18. ",
           "notams": "",
           "template": "[FACILITY] ATIS INFO [ATIS_CODE] [OBS_TIME]. [FULL_WX_STRING]. [ARPT_COND] [NOTAMS]",
           "externalGenerator": {
@@ -381,9 +381,65 @@
           "variableName": "FSS",
           "text": "FSS",
           "voice": "FLIGHT SERVICE"
+        },
+        {
+          "variableName": "4L",
+          "text": "4L",
+          "voice": "FOUR LEFT"
+        },
+        {
+          "variableName": "4R",
+          "text": "4R",
+          "voice": "FOUR RIGHT"
+        },
+        {
+          "variableName": "22L",
+          "text": "22L",
+          "voice": "TWO TWO LEFT"
+        },
+        {
+          "variableName": "22R",
+          "text": "22R",
+          "voice": "TWO TWO RIGHT"
+        },
+        {
+          "variableName": "18",
+          "text": "18",
+          "voice": "ONE EIGHT"
+        },
+        {
+          "variableName": "36",
+          "text": "36",
+          "voice": "THREE SIX"
+        },
+        {
+          "variableName": "LIT",
+          "text": "LIT",
+          "voice": "LITTLE ROCK"
+        },
+        {
+          "variableName": "HAZ_WX_INFO",
+          "text": "HAZ WX INFO",
+          "voice": "HAZARDOUS WEATHER INFORMATION"
         }
       ],
-      "airportConditionDefinitions": [],
+      "airportConditionDefinitions": [
+        {
+          "text": "@HAZ_WX_INFO FOR @LIT AREA AVBL ON @FSS FREQUENCIES.",
+          "ordinal": 1,
+          "enabled": false
+        },
+        {
+          "text": "LLWS ADVZYS IN EFCT.",
+          "ordinal": 2,
+          "enabled": false
+        },
+        {
+          "text": "BAA IN EFCT.",
+          "ordinal": 3,
+          "enabled": false
+        }
+      ],
       "notamDefinitions": []
     }
   ]
