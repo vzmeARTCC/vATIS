@@ -458,24 +458,24 @@
           "voice": "THREE ONE"
         }
       ],
-      "airportConditionDefinitions": [
+      "airportConditionDefinitions": [],
+      "notamDefinitions": [
         {
-          "text": "@HAZ_WX_INFO FOR @BNA AREA AVBL ON @FSS FREQUENCIES.",
+          "text": "@HAZ_WX_INFO FOR @BNA AREA AVBL ON @FSS FREQUENCIES",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LLWS ADVZYS IN EFCT.",
+          "text": "LLWS ADVZYS IN EFCT",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "BAA IN EFCT.",
+          "text": "BAA ADVZYS IN EFCT",
           "ordinal": 3,
           "enabled": false
         }
-      ],
-      "notamDefinitions": []
+      ]
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "version": 1,
   "name": "Memphis (MEM)",
-  "id": "acfd3b58-55a1-468c-99c2-b255ce5b879a",
+  "id": "cb86bdf8-3836-4944-98c4-efc2845ddf88",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Memphis%20(MEM).json",
   "updateSerial": 2025012301,
   "stations": [
@@ -638,24 +638,24 @@
           "voice": "TWO SEVEN"
         }
       ],
-      "airportConditionDefinitions": [
+      "airportConditionDefinitions": [],
+      "notamDefinitions": [
         {
-          "text": "@HAZ_WX_INFO FOR @MEM AREA AVBL ON @FSS FREQUENCIES.",
+          "text": "@HAZ_WX_INFO FOR @MEM AREA AVBL ON @FSS FREQUENCIES",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "LLWS ADVZYS IN EFCT.",
+          "text": "LLWS ADVZYS IN EFCT",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "BAA IN EFCT.",
+          "text": "BAA IN EFCT",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         }
-      ],
-      "notamDefinitions": []
+      ]
     }
   ]
 }
