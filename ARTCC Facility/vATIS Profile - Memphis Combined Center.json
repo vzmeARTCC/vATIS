@@ -1606,24 +1606,24 @@
           "voice": "HAZARDOUS WEATHER INFORMATION"
         }
       ],
-      "airportConditionDefinitions": [
+      "airportConditionDefinitions": [],
+      "notamDefinitions": [
         {
-          "text": "@HAZ_WX_INFO FOR @LIT AREA AVBL ON @FSS FREQUENCIES.",
+          "text": "@HAZ_WX_INFO FOR @LIT AREA AVBL ON @FSS FREQUENCIES",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LLWS ADVZYS IN EFCT.",
+          "text": "LLWS ADVZYS IN EFCT",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "BAA ADVYZS IN EFCT.",
+          "text": "BAA ADVZYS IN EFCT",
           "ordinal": 3,
           "enabled": false
         }
-      ],
-      "notamDefinitions": []
+      ]
     },
     {
       "id": "271850be-3f44-436b-b2f8-c5b66e5654fa",
@@ -2258,24 +2258,24 @@
           "voice": "TWO ZEVEN"
         }
       ],
-      "airportConditionDefinitions": [
+      "airportConditionDefinitions": [],
+      "notamDefinitions": [
         {
-          "text": "@HAZ_WX_INFO FOR @MEM AREA AVBL ON @FSS FREQUENCIES.",
+          "text": "@HAZ_WX_INFO FOR @MEM AREA AVBL ON @FSS FREQUENCIES",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LLWS ADVZYS IN EFCT.",
+          "text": "LLWS ADVZYS IN EFCT",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "BAA ADVZYS IN EFCT.",
+          "text": "BAA ADVZYS IN EFCT",
           "ordinal": 3,
           "enabled": false
         }
-      ],
-      "notamDefinitions": []
+      ]
     },
     {
       "id": "f68a42c3-fb49-4237-b304-49561887c9cd",
@@ -2730,24 +2730,24 @@
           "voice": "THREE ONE"
         }
       ],
-      "airportConditionDefinitions": [
+      "airportConditionDefinitions": [],
+      "notamDefinitions": [
         {
-          "text": "@HAZ_WX_INFO FOR @BNA AREA AVBL ON @FSS FREQUENCIES.",
+          "text": "@HAZ_WX_INFO FOR @BNA AREA AVBL ON @FSS FREQUENCIES",
           "ordinal": 1,
           "enabled": false
         },
         {
-          "text": "LLWS ADVZYS IN EFCT.",
+          "text": "LLWS ADVZYS IN EFCT",
           "ordinal": 2,
           "enabled": false
         },
         {
-          "text": "BAA IN EFCT.",
+          "text": "BAA ADVZYS IN EFCT",
           "ordinal": 3,
           "enabled": false
         }
-      ],
-      "notamDefinitions": []
+      ]
     }
   ]
 }
