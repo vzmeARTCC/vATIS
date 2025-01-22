@@ -423,24 +423,24 @@
           "voice": "HAZARDOUS WEATHER INFORMATION"
         }
       ],
-      "airportConditionDefinitions": [
+      "airportConditionDefinitions": [],
+      "notamDefinitions": [
         {
-          "text": "@HAZ_WX_INFO FOR @LIT AREA AVBL ON @FSS FREQUENCIES.",
+          "text": "@HAZ_WX_INFO FOR @LIT AREA AVBL ON @FSS FREQUENCIES",
           "ordinal": 1,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "LLWS ADVZYS IN EFCT.",
+          "text": "LLWS ADVZYS IN EFCT",
           "ordinal": 2,
-          "enabled": true
+          "enabled": false
         },
         {
-          "text": "BAA IN EFCT.",
+          "text": "BAA ADVZYS IN EFCT",
           "ordinal": 3,
-          "enabled": true
+          "enabled": false
         }
-      ],
-      "notamDefinitions": []
+      ]
     },
     {
       "id": "31999e32-56d6-41a2-9b56-963758237c01",
