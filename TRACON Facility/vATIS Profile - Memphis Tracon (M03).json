@@ -3,7 +3,7 @@
   "name": "Memphis TRACON (M03)",
   "id": "b26496f4-dbce-47af-8952-08f7c77064fb",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/TRACON%20Facility/vATIS%20Profile%20-%20Memphis%20Tracon%20(M03).json",
-  "updateSerial": 2025021000,
+  "updateSerial": 2025021001,
   "stations": [
     {
       "id": "271850be-3f44-436b-b2f8-c5b66e5654fa",
@@ -308,8 +308,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIRMEN: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
