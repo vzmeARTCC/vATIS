@@ -3,7 +3,7 @@
   "name": "Redstone AAF (HUA)",
   "id": "5dcce831-988a-4bcc-a3a9-108331386f8c",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Redstone%20AAF%20(HUA).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025021000,
   "stations": [
     {
       "id": "a2f901f1-ddca-499a-8a29-fa8fc7c26f34",
@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
