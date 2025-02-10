@@ -3,7 +3,7 @@
   "name": "Golden Triangle (GTR)",
   "id": "05fa34c8-dfd2-45f2-b930-3b2bdd292823",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Golden%20Triangle%20(GTR).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025021000,
   "stations": [
     {
       "id": "d2a9d757-ab32-4798-b192-1d6927b53802",
@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
