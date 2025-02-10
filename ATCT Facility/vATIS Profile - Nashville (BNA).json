@@ -3,7 +3,7 @@
   "name": "Nashville (BNA)",
   "id": "bb69193f-d7c4-4295-a3d5-fda4a3698c8d",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Nashville%20(BNA).json",
-  "updateSerial": 2025021001,
+  "updateSerial": 2025021002,
   "stations": [
     {
       "id": "f68a42c3-fb49-4237-b304-49561887c9cd",
@@ -308,8 +308,8 @@
         },
         "notams": {
           "template": {
-            "text": "{notams}.",
-            "voice": "{notams}."
+            "text": "NOTAMS..{notams}.",
+            "voice": "NOTICE TO AIRMEN..{notams}."
           }
         },
         "closingStatement": {
