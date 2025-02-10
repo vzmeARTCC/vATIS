@@ -3,7 +3,7 @@
   "name": "Fort Smith (FSM)",
   "id": "516c3b0c-4f44-406d-90b3-3c8baa0f33cd",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Fort%20Smith%20(FSM).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025021000,
   "stations": [
     {
       "id": "4067e7f7-b07a-4247-9d2f-b1fd000f785e",
@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
