@@ -3,7 +3,7 @@
   "name": "Jackson (JAN)",
   "id": "b0d79acc-4bff-45a3-877d-089d5a197b28",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Jackson%20(JAN).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025021000,
   "stations": [
     {
       "id": "04170a42-bd08-489f-a6e2-c7fcef7cbc74",
@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
