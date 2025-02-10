@@ -3,7 +3,7 @@
   "name": "Little Rock AFB (LRF)",
   "id": "ca88ecc9-a2ab-4201-9a77-7d51a47e1dca",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Little%20Rock%20AFB%20(LRF).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025021000,
   "stations": [
     {
       "id": "31999e32-56d6-41a2-9b56-963758237c01",
@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
