@@ -3,7 +3,7 @@
   "name": "Olive Branch (OLV)",
   "id": "ba12864a-0c4e-48ea-a24f-682b8a4a78be",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Olive%20Branch%20(OLV).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025021000,
   "stations": [
     {
       "id": "d891a829-a9a0-467d-bb24-c73343439b1d",
@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
