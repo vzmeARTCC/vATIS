@@ -3,7 +3,7 @@
   "name": "Memphis Combined Center",
   "id": "86ffcade-deed-452a-bae9-5becb7b5a1c9",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ARTCC%20Facility/vATIS%20Profile%20-%20Memphis%20Combined%20Center.json",
-  "updateSerial": 2025021001,
+  "updateSerial": 2025021002,
   "stations": [
     {
       "id": "4067e7f7-b07a-4247-9d2f-b1fd000f785e",
@@ -1491,8 +1491,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIRMEN: {notams}."
+            "text": "",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -1928,8 +1928,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIRMEN: {notams}."
+            "text": "",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
@@ -2580,8 +2580,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIRMEN: {notams}."
+            "text": "",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
