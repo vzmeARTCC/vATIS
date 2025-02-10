@@ -3,7 +3,7 @@
   "name": "Little Rock TRACON (LIT)",
   "id": "2b0b3571-ba90-403a-aa74-2887408ca145",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/TRACON%20Facility/vATIS%20Profile%20-%20Little%20Rock%20Tracon%20(LIT).json",
-  "updateSerial": 2025021001,
+  "updateSerial": 2025021002,
   "stations": [
     {
       "id": "af624718-d6bd-4488-a103-6a0fc8931a88",
@@ -308,8 +308,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}.",
-            "voice": "NOTICES TO AIRMEN: {notams}."
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
