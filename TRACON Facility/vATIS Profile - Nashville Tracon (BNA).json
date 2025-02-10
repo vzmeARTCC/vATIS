@@ -3,7 +3,7 @@
   "name": "Nashville TRACON (BNA)",
   "id": "5cd923b0-27de-4499-8fd5-c19ad85cc3a0",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/TRACON%20Facility/vATIS%20Profile%20-%20Nashville%20Tracon%20(BNA).json",
-  "updateSerial": 2025021000,
+  "updateSerial": 2025021001,
   "stations": [
     {
       "id": "f68a42c3-fb49-4237-b304-49561887c9cd",
@@ -308,8 +308,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIRMEN: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
