@@ -3,7 +3,7 @@
   "name": "John C. Tune (JWN)",
   "id": "238e274b-a51a-4afa-888b-cdb8c7a92247",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20John%20C.%20Tune%20(JWN).json",
-  "updateSerial": 2025012300,
+  "updateSerial": 2025021000,
   "stations": [
     {
       "id": "9e7f67bf-6bd9-49af-b36a-d141b126d5f2",
@@ -309,7 +309,7 @@
         "notams": {
           "template": {
             "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIR MISSIONS: {notams}"
+            "voice": "NOTICES TO AIRMEN: {notams}"
           }
         },
         "closingStatement": {
