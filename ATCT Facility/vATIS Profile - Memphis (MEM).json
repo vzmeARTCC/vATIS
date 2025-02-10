@@ -3,7 +3,7 @@
   "name": "Memphis (MEM)",
   "id": "cb86bdf8-3836-4944-98c4-efc2845ddf88",
   "updateUrl": "https://raw.githubusercontent.com/vzmeARTCC/vATIS/refs/heads/main/ATCT%20Facility/vATIS%20Profile%20-%20Memphis%20(MEM).json",
-  "updateSerial": 2025021000,
+  "updateSerial": 2025021001,
   "stations": [
     {
       "id": "271850be-3f44-436b-b2f8-c5b66e5654fa",
@@ -308,8 +308,8 @@
         },
         "notams": {
           "template": {
-            "text": "NOTAMS... {notams}",
-            "voice": "NOTICES TO AIRMEN: {notams}"
+            "text": "{notams}.",
+            "voice": "{notams}."
           }
         },
         "closingStatement": {
