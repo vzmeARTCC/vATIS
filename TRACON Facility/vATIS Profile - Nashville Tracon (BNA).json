@@ -315,8 +315,8 @@
         "closingStatement": {
           "autoIncludeClosingStatement": true,
           "template": {
-            "text": "NUMEROUS PROCEDURE CHAGES. VERIFY NAVIGATION DATA...ADVS YOU HAVE INFO {letter}",
-            "voice": "NUMEROUS PROCEDURE CHAGES. VERIFY NAVIGATION DATA. ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
+            "text": "NUMEROUS PROCEDURE CHANGES. VERIFY NAVIGATION DATA...ADVS YOU HAVE INFO {letter}",
+            "voice": "NUMEROUS PROCEDURE CHANGES. VERIFY NAVIGATION DATA. ADVISE ON INITIAL CONTACT, YOU HAVE INFORMATION {letter|word}"
           }
         }
       },
@@ -860,4 +860,5 @@
     }
   ]
 }
+
 
